@@ -1,0 +1,36 @@
+{
+  "1001": {
+    "pin": "1234",
+    "name": "Alice Johnson",
+    "balance": 4500.0,
+    "transactions": [
+      {
+        "type": "TRANSFER OUT",
+        "amount": 500.0,
+        "note": "To 1002",
+        "time": "2026-06-03 02:10:35",
+        "balance_after": 4500.0
+      }
+    ]
+  },
+  "1002": {
+    "pin": "4321",
+    "name": "Bob Smith",
+    "balance": 3000.0,
+    "transactions": [
+      {
+        "type": "TRANSFER IN",
+        "amount": 500.0,
+        "note": "From 1001",
+        "time": "2026-06-03 02:10:35",
+        "balance_after": 3000.0
+      }
+    ]
+  },
+  "1003": {
+    "pin": "0000",
+    "name": "Charlie Brown",
+    "balance": 750.0,
+    "transactions": []
+  }
+}
