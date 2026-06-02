@@ -1,8 +1,8 @@
 {
   "1001": {
-    "pin": "1234",
+    "pin": "7091",
     "name": "Alice Johnson",
-    "balance": 4500.0,
+    "balance": 5000.0,
     "transactions": [
       {
         "type": "TRANSFER OUT",
@@ -10,13 +10,27 @@
         "note": "To 1002",
         "time": "2026-06-03 02:10:35",
         "balance_after": 4500.0
+      },
+      {
+        "type": "WITHDRAWAL",
+        "amount": 500.0,
+        "note": "",
+        "time": "2026-06-03 03:17:59",
+        "balance_after": 4000.0
+      },
+      {
+        "type": "TRANSFER IN",
+        "amount": 1000.0,
+        "note": "From 1002",
+        "time": "2026-06-03 03:19:22",
+        "balance_after": 5000.0
       }
     ]
   },
   "1002": {
     "pin": "4321",
     "name": "Bob Smith",
-    "balance": 3000.0,
+    "balance": 2000.0,
     "transactions": [
       {
         "type": "TRANSFER IN",
@@ -24,6 +38,13 @@
         "note": "From 1001",
         "time": "2026-06-03 02:10:35",
         "balance_after": 3000.0
+      },
+      {
+        "type": "TRANSFER OUT",
+        "amount": 1000.0,
+        "note": "To 1001",
+        "time": "2026-06-03 03:19:22",
+        "balance_after": 2000.0
       }
     ]
   },

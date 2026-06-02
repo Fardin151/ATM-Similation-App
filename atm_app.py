@@ -222,7 +222,7 @@ def ghost_button(parent, text, command, width=22):
 def open_history(atm_obj, parent):
     win = tk.Toplevel(parent)
     win.title("Transaction History")
-    win.geometry("720x520")
+    win.geometry("760x520")
     win.configure(bg=COLORS["bg"])
     win.resizable(False, False)
 
